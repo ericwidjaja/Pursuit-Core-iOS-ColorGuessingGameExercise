@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF998AB922F12B1A00E27703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF998AB822F12B1A00E27703 /* AppDelegate.swift */; };
+		DF998ABB22F12B1A00E27703 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF998ABA22F12B1A00E27703 /* ViewController.swift */; };
+		DF998ABE22F12B1A00E27703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF998ABC22F12B1A00E27703 /* Main.storyboard */; };
+		DF998AC022F12B1B00E27703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF998ABF22F12B1B00E27703 /* Assets.xcassets */; };
+		DF998AC322F12B1B00E27703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF998AC122F12B1B00E27703 /* LaunchScreen.storyboard */; };
+		DF998ACE22F12B1B00E27703 /* ColorGuessingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF998ACD22F12B1B00E27703 /* ColorGuessingGameTests.swift */; };
+		DF998AD922F12B1B00E27703 /* ColorGuessingGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF998AD822F12B1B00E27703 /* ColorGuessingGameUITests.swift */; };
+		DF998B6F22F3A73B00E27703 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF998B6E22F3A73B00E27703 /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF998ACA22F12B1B00E27703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF998AAD22F12B1A00E27703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF998AB422F12B1A00E27703;
+			remoteInfo = ColorGuessingGame;
+		};
+		DF998AD522F12B1B00E27703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF998AAD22F12B1A00E27703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF998AB422F12B1A00E27703;
+			remoteInfo = ColorGuessingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF998AB522F12B1A00E27703 /* ColorGuessingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorGuessingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF998AB822F12B1A00E27703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF998ABA22F12B1A00E27703 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF998ABD22F12B1A00E27703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF998ABF22F12B1B00E27703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF998AC222F12B1B00E27703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF998AC422F12B1B00E27703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF998AC922F12B1B00E27703 /* ColorGuessingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGuessingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF998ACD22F12B1B00E27703 /* ColorGuessingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGuessingGameTests.swift; sourceTree = "<group>"; };
+		DF998ACF22F12B1B00E27703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF998AD422F12B1B00E27703 /* ColorGuessingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGuessingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF998AD822F12B1B00E27703 /* ColorGuessingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGuessingGameUITests.swift; sourceTree = "<group>"; };
+		DF998ADA22F12B1B00E27703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF998B6E22F3A73B00E27703 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF998AB222F12B1A00E27703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF998AC622F12B1B00E27703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF998AD122F12B1B00E27703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF998AAC22F12B1A00E27703 = {
+			isa = PBXGroup;
+			children = (
+				DF998AB722F12B1A00E27703 /* ColorGuessingGame */,
+				DF998ACC22F12B1B00E27703 /* ColorGuessingGameTests */,
+				DF998AD722F12B1B00E27703 /* ColorGuessingGameUITests */,
+				DF998AB622F12B1A00E27703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF998AB622F12B1A00E27703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF998AB522F12B1A00E27703 /* ColorGuessingGame.app */,
+				DF998AC922F12B1B00E27703 /* ColorGuessingGameTests.xctest */,
+				DF998AD422F12B1B00E27703 /* ColorGuessingGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF998AB722F12B1A00E27703 /* ColorGuessingGame */ = {
+			isa = PBXGroup;
+			children = (
+				DF998AE622F2314500E27703 /* SupportingFiles */,
+				DF998ABA22F12B1A00E27703 /* ViewController.swift */,
+				DF998ABC22F12B1A00E27703 /* Main.storyboard */,
+				DF998B6E22F3A73B00E27703 /* Model.swift */,
+				DF998ABF22F12B1B00E27703 /* Assets.xcassets */,
+				DF998AC122F12B1B00E27703 /* LaunchScreen.storyboard */,
+				DF998AC422F12B1B00E27703 /* Info.plist */,
+			);
+			path = ColorGuessingGame;
+			sourceTree = "<group>";
+		};
+		DF998ACC22F12B1B00E27703 /* ColorGuessingGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF998ACD22F12B1B00E27703 /* ColorGuessingGameTests.swift */,
+				DF998ACF22F12B1B00E27703 /* Info.plist */,
+			);
+			path = ColorGuessingGameTests;
+			sourceTree = "<group>";
+		};
+		DF998AD722F12B1B00E27703 /* ColorGuessingGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF998AD822F12B1B00E27703 /* ColorGuessingGameUITests.swift */,
+				DF998ADA22F12B1B00E27703 /* Info.plist */,
+			);
+			path = ColorGuessingGameUITests;
+			sourceTree = "<group>";
+		};
+		DF998AE622F2314500E27703 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DF998AB822F12B1A00E27703 /* AppDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF998AB422F12B1A00E27703 /* ColorGuessingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF998ADD22F12B1B00E27703 /* Build configuration list for PBXNativeTarget "ColorGuessingGame" */;
+			buildPhases = (
+				DF998AB122F12B1A00E27703 /* Sources */,
+				DF998AB222F12B1A00E27703 /* Frameworks */,
+				DF998AB322F12B1A00E27703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorGuessingGame;
+			productName = ColorGuessingGame;
+			productReference = DF998AB522F12B1A00E27703 /* ColorGuessingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF998AC822F12B1B00E27703 /* ColorGuessingGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF998AE022F12B1B00E27703 /* Build configuration list for PBXNativeTarget "ColorGuessingGameTests" */;
+			buildPhases = (
+				DF998AC522F12B1B00E27703 /* Sources */,
+				DF998AC622F12B1B00E27703 /* Frameworks */,
+				DF998AC722F12B1B00E27703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF998ACB22F12B1B00E27703 /* PBXTargetDependency */,
+			);
+			name = ColorGuessingGameTests;
+			productName = ColorGuessingGameTests;
+			productReference = DF998AC922F12B1B00E27703 /* ColorGuessingGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF998AD322F12B1B00E27703 /* ColorGuessingGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF998AE322F12B1B00E27703 /* Build configuration list for PBXNativeTarget "ColorGuessingGameUITests" */;
+			buildPhases = (
+				DF998AD022F12B1B00E27703 /* Sources */,
+				DF998AD122F12B1B00E27703 /* Frameworks */,
+				DF998AD222F12B1B00E27703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF998AD622F12B1B00E27703 /* PBXTargetDependency */,
+			);
+			name = ColorGuessingGameUITests;
+			productName = ColorGuessingGameUITests;
+			productReference = DF998AD422F12B1B00E27703 /* ColorGuessingGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF998AAD22F12B1A00E27703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Eric Widjaja";
+				TargetAttributes = {
+					DF998AB422F12B1A00E27703 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					DF998AC822F12B1B00E27703 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DF998AB422F12B1A00E27703;
+					};
+					DF998AD322F12B1B00E27703 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DF998AB422F12B1A00E27703;
+					};
+				};
+			};
+			buildConfigurationList = DF998AB022F12B1A00E27703 /* Build configuration list for PBXProject "ColorGuessingGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF998AAC22F12B1A00E27703;
+			productRefGroup = DF998AB622F12B1A00E27703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF998AB422F12B1A00E27703 /* ColorGuessingGame */,
+				DF998AC822F12B1B00E27703 /* ColorGuessingGameTests */,
+				DF998AD322F12B1B00E27703 /* ColorGuessingGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF998AB322F12B1A00E27703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF998AC322F12B1B00E27703 /* LaunchScreen.storyboard in Resources */,
+				DF998AC022F12B1B00E27703 /* Assets.xcassets in Resources */,
+				DF998ABE22F12B1A00E27703 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF998AC722F12B1B00E27703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF998AD222F12B1B00E27703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF998AB122F12B1A00E27703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF998B6F22F3A73B00E27703 /* Model.swift in Sources */,
+				DF998ABB22F12B1A00E27703 /* ViewController.swift in Sources */,
+				DF998AB922F12B1A00E27703 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF998AC522F12B1B00E27703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF998ACE22F12B1B00E27703 /* ColorGuessingGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF998AD022F12B1B00E27703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF998AD922F12B1B00E27703 /* ColorGuessingGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF998ACB22F12B1B00E27703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF998AB422F12B1A00E27703 /* ColorGuessingGame */;
+			targetProxy = DF998ACA22F12B1B00E27703 /* PBXContainerItemProxy */;
+		};
+		DF998AD622F12B1B00E27703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF998AB422F12B1A00E27703 /* ColorGuessingGame */;
+			targetProxy = DF998AD522F12B1B00E27703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF998ABC22F12B1A00E27703 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF998ABD22F12B1A00E27703 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF998AC122F12B1B00E27703 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF998AC222F12B1B00E27703 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF998ADB22F12B1B00E27703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF998ADC22F12B1B00E27703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF998ADE22F12B1B00E27703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColorGuessingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joDeb.ColorGuessingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF998ADF22F12B1B00E27703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColorGuessingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joDeb.ColorGuessingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF998AE122F12B1B00E27703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColorGuessingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joDeb.ColorGuessingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorGuessingGame.app/ColorGuessingGame";
+			};
+			name = Debug;
+		};
+		DF998AE222F12B1B00E27703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColorGuessingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joDeb.ColorGuessingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorGuessingGame.app/ColorGuessingGame";
+			};
+			name = Release;
+		};
+		DF998AE422F12B1B00E27703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColorGuessingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joDeb.ColorGuessingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorGuessingGame;
+			};
+			name = Debug;
+		};
+		DF998AE522F12B1B00E27703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColorGuessingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joDeb.ColorGuessingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorGuessingGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF998AB022F12B1A00E27703 /* Build configuration list for PBXProject "ColorGuessingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF998ADB22F12B1B00E27703 /* Debug */,
+				DF998ADC22F12B1B00E27703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF998ADD22F12B1B00E27703 /* Build configuration list for PBXNativeTarget "ColorGuessingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF998ADE22F12B1B00E27703 /* Debug */,
+				DF998ADF22F12B1B00E27703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF998AE022F12B1B00E27703 /* Build configuration list for PBXNativeTarget "ColorGuessingGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF998AE122F12B1B00E27703 /* Debug */,
+				DF998AE222F12B1B00E27703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF998AE322F12B1B00E27703 /* Build configuration list for PBXNativeTarget "ColorGuessingGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF998AE422F12B1B00E27703 /* Debug */,
+				DF998AE522F12B1B00E27703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF998AAD22F12B1A00E27703 /* Project object */;
+}
